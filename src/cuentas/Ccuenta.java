@@ -1,21 +1,16 @@
 package cuentas;
 
 /**
- * Clase que representa una cuenta bancaria.
  * Permite ingresar y retirar dinero, además de consultar el saldo.
  */
 public class Ccuenta {
 
-    /** Nombre del titular de la cuenta */
     private String nombre;
 
-    /** Número de cuenta bancaria */
     private String cuenta;
 
-    /** Saldo actual en la cuenta */
     private double saldo;
 
-    /** Tipo de interés aplicado a la cuenta */
     private double tipoInteres;
 
     /**
@@ -25,7 +20,7 @@ public class Ccuenta {
     }
 
     /**
-     * Constructor con parámetros para inicializar la cuenta.
+     * Parámetros para inicializar la cuenta.
      *
      * @param nom Nombre del titular de la cuenta.
      * @param cue Número de cuenta bancaria.
@@ -42,7 +37,7 @@ public class Ccuenta {
     /**
      * Devuelve el saldo actual de la cuenta.
      *
-     * @return Saldo disponible en la cuenta.
+     * @return
      */
     public double estado() {
         return saldo;
@@ -80,72 +75,57 @@ public class Ccuenta {
     // Getters y Setters
 
     /**
-     * Obtiene el nombre del titular de la cuenta.
-     *
-     * @return Nombre del titular.
+     * @return
      */
     public String getNombre() {
         return nombre;
     }
 
     /**
-     * Establece el nombre del titular de la cuenta.
-     *
-     * @param nombre Nombre del titular.
+     * @param nombre
      */
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
 
     /**
-     * Obtiene el número de cuenta bancaria.
-     *
-     * @return Número de cuenta.
+     * @return
      */
     public String getCuenta() {
         return cuenta;
     }
 
     /**
-     * Establece el número de cuenta bancaria.
-     *
-     * @param cuenta Número de cuenta.
+
+     * @param cuenta
      */
     public void setCuenta(String cuenta) {
         this.cuenta = cuenta;
     }
 
     /**
-     * Obtiene el saldo actual de la cuenta.
-     *
-     * @return Saldo de la cuenta.
+     * @return
      */
     public double getSaldo() {
         return saldo;
     }
 
     /**
-     * Establece el saldo de la cuenta.
-     *
-     * @param saldo Nuevo saldo de la cuenta.
+     * @param saldo
      */
     public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
 
     /**
-     * Obtiene el tipo de interés aplicado a la cuenta.
-     *
-     * @return Tipo de interés.
+     * @return
      */
     public double getTipoInteres() {
         return tipoInteres;
     }
 
     /**
-     * Establece el tipo de interés aplicado a la cuenta.
-     *
-     * @param tipoInteres Nuevo tipo de interés.
+     * @param tipoInteres
      */
     public void setTipoInteres(double tipoInteres) {
         this.tipoInteres = tipoInteres;
